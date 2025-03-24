@@ -2,7 +2,7 @@ import os
 from direct.showbase.ShowBase import ShowBase
 from panda3d.core import Filename
 from time import time
-class MyApp(ShowBase):
+class g(ShowBase):
     def __init__(self):
         super().__init__()
         self.setBackgroundColor(0, 0, 0)
@@ -34,5 +34,5 @@ class MyApp(ShowBase):
             self.last_played_time = time()  
         return task.cont  
 
-app = MyApp()
+app = g()
 app.run()
